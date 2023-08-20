@@ -97,64 +97,52 @@ The Restaurant Food Management and Delivery App is developed using Java for func
 
 ## Screenshots
 
-### Food Seller UI
+### Splash And Start Screen
 
-#### Account Management
+| ![Screenshot 15](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/a7b1b313-4673-4c9e-a0e0-029e9c374d5e) | ![Screenshot 16](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/718bd4d9-3513-4c65-a7bc-4e991dc4ebcf) |
+|---|---|
 
-| <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/c47a14db-8b4f-4bc5-b126-c87413711c9c" width="30%"> | <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/985f041c-c087-4de5-8292-489c6b0e4f15" width="30%"> | <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/dfab8de6-f487-4753-9322-75d7b7743e12" width="30%"> |
-| --- | --- | --- |
-| Image 1 | Image 2 | Image 3 |
-| <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/2a93fe51-2309-4052-8f06-721a6b388bdc" width="30%"> | | |
-| Image 4 | | |
+## Food Seller UI
 
-#### Food Item Management
+### Account Management
 
-![Screenshot_2022-12-25-15-47-56-973_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/b52269e0-903a-4280-85ba-275a4b1a4139)
+| ![Screenshot 1](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/c47a14db-8b4f-4bc5-b126-c87413711c9c) | ![Screenshot 2](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/985f041c-c087-4de5-8292-489c6b0e4f15) | ![Screenshot 3](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/dfab8de6-f487-4753-9322-75d7b7743e12) |
+|---|---|---|
+| ![Screenshot 4](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/2a93fe51-2309-4052-8f06-721a6b388bdc) | | |
 
-![Screenshot_2022-12-25-15-46-59-594_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/cc636e2d-b991-4991-8684-23b330643622)
+### Food Item Management
 
-![Screenshot_2022-12-25-21-45-42-714_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/dbcce8bf-7e81-47e6-b9f5-195477482f30)
+| ![Screenshot 1](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/6f2d91f9-ee38-45d1-85fd-e3b73ae21c90) | ![Screenshot 2](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/b52269e0-903a-4280-85ba-275a4b1a4139) | ![Screenshot 3](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/cc636e2d-b991-4991-8684-23b330643622) |
+|---|---|---|
+| ![Screenshot 4](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/dbcce8bf-7e81-47e6-b9f5-195477482f30) | | |
 
-### Food Consumer UI
+## Food Consumer UI
 
-#### Restaurant Exploration
+### Restaurant Exploration
 
-![Screenshot_2022-12-25-15-49-35-583_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/7405c47c-b67f-437b-befb-a180f24c33a0)
+| ![Screenshot 1](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/7405c47c-b67f-437b-befb-a180f24c33a0) | ![Screenshot 2](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/6b13d854-2a98-4103-87f3-f5f0efc9abc0) | ![Screenshot 3](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/4dd7b981-0cbc-49dd-a79d-41179264148c) |
+|---|---|---|
 
-![Screenshot_2022-12-25-21-51-30-731_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/6b13d854-2a98-4103-87f3-f5f0efc9abc0)
+### Detailed Restaurant Information
 
-![Screenshot_2022-12-25-15-56-16-862_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/4dd7b981-0cbc-49dd-a79d-41179264148c)
+| ![Screenshot 4](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/88770192-bcd0-4310-bf81-98f94b552e00) | ![Screenshot 5](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/72683c98-0dde-4a71-9775-3ca8053001cd) | ![Screenshot 6](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/de05466f-b1ac-41c0-a66e-27ac597b6086) |
+|---|---|---|
 
+### Order Placement
 
-#### Detailed Restaurant Information
+| ![Screenshot 7](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/5030b6ef-0f45-4bd4-ae71-0747cbb78fc4) | ![Screenshot 8](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/678e3a3e-34c8-4057-b2b1-37d2954e63ed) | ![Screenshot 9](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/99afd899-3d83-4284-b924-821321a770d0) |
+|---|---|---|
+| ![Screenshot 10](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/413cf918-c0e3-4347-a604-b47534e8433b) | ![Screenshot 11](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/237e4d90-203f-4029-a947-2d2fd2337469) | ![Screenshot 12](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/64de9c9f-36dc-4bc7-a3fb-fa45f92e70e8) |
 
-![Screenshot_2022-12-25-15-50-18-218_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/88770192-bcd0-4310-bf81-98f94b552e00)
+### Order Monitoring
 
-![Screenshot_2022-12-25-15-50-38-438_com google android apps maps](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/72683c98-0dde-4a71-9775-3ca8053001cd)
-
-![Screenshot_2022-12-25-15-51-32-408_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/de05466f-b1ac-41c0-a66e-27ac597b6086)
-
-#### Order Placement
-
-![Screenshot_2022-12-25-15-52-31-744_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/5030b6ef-0f45-4bd4-ae71-0747cbb78fc4)
-
-![Screenshot_2022-12-25-15-49-43-648_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/678e3a3e-34c8-4057-b2b1-37d2954e63ed)
-
-![Screenshot_2022-12-25-19-16-56-997_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/99afd899-3d83-4284-b924-821321a770d0)
-
-![Screenshot_2022-12-25-23-04-57-450_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/413cf918-c0e3-4347-a604-b47534e8433b)
-
-![Screenshot_2022-12-25-15-54-17-998_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/237e4d90-203f-4029-a947-2d2fd2337469)
-
-![Screenshot_2022-12-25-15-54-30-625_com bKash customerapp](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/64de9c9f-36dc-4bc7-a3fb-fa45f92e70e8)
-
-#### Order Monitoring
-
-![Screenshot_2022-12-25-18-41-31-365_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/88fa9a99-a123-435d-bbdc-c0c4b12eef09)
+| ![Screenshot 13](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/88fa9a99-a123-435d-bbdc-c0c4b12eef09) |
+|---|
 
 ### Order Management: Receiving, Accepting, and Cancelling
 
-![Screenshot_2022-12-25-21-04-01-907_com example foodforyou](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/3a7e2676-4760-4975-ab7e-0e7b098cd6c3)
+| ![Screenshot 14](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/3a7e2676-4760-4975-ab7e-0e7b098cd6c3) |
+|---|
 
 ## Getting Started
 
