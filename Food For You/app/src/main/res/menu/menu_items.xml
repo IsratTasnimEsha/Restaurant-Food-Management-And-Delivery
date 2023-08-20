@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m_category"
+        android:title="Add Food Items"
+        android:icon="@drawable/ic_baseline_food_bank_24"/>
+
+    <item android:title="Notifications">
+        <menu>
+            <item
+                android:id="@+id/m_notification"
+                android:title="Notifications"
+                android:icon="@drawable/ic_baseline_notifications_24">
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+
+        <item
+            android:id="@+id/m_update"
+            android:icon="@drawable/ic_baseline_update_24"
+            android:title="Update Profile" />
+
+        <item
+            android:id="@+id/m_change"
+            android:icon="@drawable/ic_baseline_security_24"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/m_delete"
+            android:icon="@drawable/ic_baseline_delete_forever_24"
+            android:title="Delete Account" />
+        </menu>
+    </item>
+    <item android:title="Log Out">
+        <menu>
+        <item
+            android:id="@+id/m_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Log Out" />
+        </menu>
+    </item>
+</menu>

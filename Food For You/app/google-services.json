@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708997675779",
+    "project_id": "food-for-you-a49a2",
+    "storage_bucket": "food-for-you-a49a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708997675779:android:dfe0f1d795dce0deefc736",
+        "android_client_info": {
+          "package_name": "com.example.foodforyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708997675779-55vjl1sjokm6ue1qcqkh3bh7vbceidfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzrpWgJ_FtojMhrU8hoEXIhx2bc9Mrqt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708997675779-55vjl1sjokm6ue1qcqkh3bh7vbceidfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

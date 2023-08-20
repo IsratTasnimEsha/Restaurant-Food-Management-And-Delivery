@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/few_green"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/r_uinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="@string/user" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+
+        <EditText
+            android:id="@+id/r_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_calendar_month_24"
+            android:ems="10"
+            android:hint="Date Of Birth"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/r_rinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:text="@string/rest" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_oname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Owner Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_rname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_restaurant_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Name Of Restaurant"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_add_location_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Address Of Restaurant"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_rphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Restaurant Contact Number"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_rmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Restaurant E-Mail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_web_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Restaurant Website"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_opening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_calendar_month_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Date Of Opening"
+            android:inputType="date"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_restaurant_menu_24"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:hint="Restaurant Type"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_access_time_24"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:hint="Opening Time"
+            android:inputType="time"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:hint="Closing Time"
+            android:inputType="time"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_description_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Password"
+            android:minHeight="48dp"
+            android:inputType="textPassword" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="8dp">
+        <EditText
+            android:id="@+id/r_cpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:minHeight="48dp"
+            android:inputType="textPassword" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="8dp">
+        <Button
+            android:id="@+id/r_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_green"
+            android:textColor="@color/white"
+            android:onClick="updatePage"
+            android:text="Sign Up" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

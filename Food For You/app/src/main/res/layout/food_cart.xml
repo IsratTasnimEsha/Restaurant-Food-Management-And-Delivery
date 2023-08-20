@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:id="@+id/bsc_cart"
+    android:padding="15dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="0">
+
+            <ImageView
+                android:id="@+id/bsc_fphoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@tools:sample/avatars">
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bsc_limit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dark_blue"
+                    android:drawablePadding="1dp"
+                    android:drawableLeft="@drawable/ic_baseline_timer_24"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:text="Time Limit"
+                    android:textColor="@color/white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/bsc_limit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/bsc_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/bsc_rname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/bsc_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/bsc_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment" />
+
+            <RadioGroup
+                android:id="@+id/bsc_bill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/bsc_gpay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bKash Payment"
+                    android:checked="true"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/bsc_cod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cash On Delivery"
+                    android:textSize="12dp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <ImageView
+                android:id="@+id/bsc_confirm"
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_done_24" />
+
+            <TextView
+                android:id="@+id/bsc_txt_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:layout_gravity="center"
+                android:textColor="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/bfo_txt_confirm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Order"
+                android:textColor="@color/dark_blue"/>
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+</androidx.cardview.widget.CardView>

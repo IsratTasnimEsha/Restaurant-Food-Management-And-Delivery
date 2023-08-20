@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/bh_cart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="Shopping Cart"></item>
+
+        <item
+            android:id="@+id/bh_order"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="Ordered Foods"></item>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/bh_update"
+                android:icon="@drawable/ic_baseline_update_24"
+                android:title="Update Profile">
+            </item>
+
+            <item
+                android:id="@+id/bh_delete"
+                android:icon="@drawable/ic_baseline_delete_forever_24"
+                android:title="Delete Account">
+            </item>
+
+            <item
+                android:id="@+id/bh_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Log Out">
+            </item>
+        </menu>
+    </item>
+
+</menu>

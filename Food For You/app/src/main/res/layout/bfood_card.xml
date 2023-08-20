@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:id="@id/bfd_card"
+    android:padding="15dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/bfd_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/bfd_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/bfd_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/bfd_offer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bfd_rphoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </GridLayout>
+</androidx.cardview.widget.CardView>

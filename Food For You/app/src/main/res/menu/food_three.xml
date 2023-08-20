@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/f_drinks"
+        android:icon="@drawable/drinks"
+        android:title="Drinks" />
+
+    <item
+        android:id="@+id/f_dessert"
+        android:icon="@drawable/dessert"
+        android:title="Dessert" />
+
+    <item
+        android:id="@+id/f_ffcombo"
+        android:icon="@drawable/ffcombo"
+        android:title="Fast Food Combo" />
+
+    <item
+        android:id="@+id/f_rcombo"
+        android:icon="@drawable/rcombo"
+        android:title="Rice Combo" />
+
+    <item
+        android:id="@+id/f_others"
+        android:icon="@drawable/others"
+        android:title="Others" />
+</menu>

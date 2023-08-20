@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/f_burger"
+        android:icon="@drawable/burger"
+        android:title="Burger" />
+
+    <item
+        android:id="@+id/f_sandwich"
+        android:icon="@drawable/sandwich"
+        android:title="Sandwich" />
+
+    <item
+        android:id="@+id/f_pasta"
+        android:icon="@drawable/pasta"
+        android:title="Noodles/Pasta" />
+
+    <item
+        android:id="@+id/f_pizza"
+        android:icon="@drawable/pizza"
+        android:title="Pizza" />
+
+    <item
+        android:id="@+id/f_fries"
+        android:icon="@drawable/fries"
+        android:title="Fries" />
+
+</menu>

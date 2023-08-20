@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/f_burger"
+        android:title="Burger" />
+
+    <item
+        android:id="@+id/f_sandwich"
+        android:title="Sandwich" />
+
+    <item
+        android:id="@+id/f_pasta"
+        android:title="Noodles/Pasta" />
+
+    <item
+        android:id="@+id/f_pizza"
+        android:title="Pizza" />
+
+    <item
+        android:id="@+id/f_fries"
+        android:title="Fries" />
+
+    <item
+        android:id="@+id/f_rice"
+        android:title="Rice" />
+
+    <item
+        android:id="@+id/f_meat"
+        android:title="Meat" />
+
+    <item
+        android:id="@+id/f_veg"
+        android:title="Vegetables" />
+
+    <item
+        android:id="@+id/f_salad"
+        android:title="Salad" />
+
+    <item
+        android:id="@+id/f_soup"
+        android:title="Soup" />
+
+    <item
+        android:id="@+id/f_drinks"
+        android:title="Drinks" />
+
+    <item
+        android:id="@+id/f_dessert"
+        android:title="Dessert" />
+
+    <item
+        android:id="@+id/f_ffcombo"
+        android:title="Fast Food Combo" />
+
+    <item
+        android:id="@+id/f_rcombo"
+        android:title="Rice Combo" />
+
+    <item
+        android:id="@+id/f_special"
+        android:title="Restaurant Special" />
+
+    <item
+        android:id="@+id/f_others"
+        android:title="Others" />
+
+    <item
+        android:id="@+id/f_offer"
+        android:title="Special Offers" />
+
+</menu>

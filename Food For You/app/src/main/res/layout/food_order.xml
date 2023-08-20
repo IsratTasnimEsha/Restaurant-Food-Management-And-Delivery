@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="6dp"
+    android:padding="15dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/fo_fphoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/fo_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_limit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/fo_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/fo_bphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_blocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fo_bill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/fo_accept"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_done_24" />
+
+            <TextView
+                android:id="@+id/fo_txt_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Accept"
+                android:textColor="@color/dark_blue" />
+
+            <ImageView
+                android:id="@+id/fo_cancel"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_cancel_24" />
+
+            <TextView
+                android:id="@+id/fo_txt_confirm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@color/dark_green" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</androidx.cardview.widget.CardView>

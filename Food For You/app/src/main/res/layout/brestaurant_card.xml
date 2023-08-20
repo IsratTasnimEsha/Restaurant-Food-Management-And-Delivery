@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bfd_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/bfd_rphoto"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="2dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/bfd_rname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:text="Restaurant Name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bfd_raddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Location" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bfd_rate_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/dark_blue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Rate Us"
+                android:gravity="center"
+                android:textColor="@color/white">
+        </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bfd_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="fghf"
+                android:drawableRight="@drawable/ic_baseline_star_rate_24"
+                android:drawablePadding="1dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/bfd_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="fghf"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reviews"
+                android:gravity="center">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

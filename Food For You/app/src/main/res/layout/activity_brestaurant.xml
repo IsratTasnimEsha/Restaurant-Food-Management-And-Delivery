@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/few_blue"
+    tools:context=".BRestaurantActivity">
+
+    <FrameLayout
+        android:id="@+id/bres_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bres_linear">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bres_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bres_bottom4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9E8E6"
+            app:menu="@menu/food_four" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bres_bottom1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9E8E6"
+            app:menu="@menu/food_one">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bres_bottom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9E8E6"
+            app:menu="@menu/food_two" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bres_bottom3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E9E8E6"
+            app:menu="@menu/food_three" />
+
+    </LinearLayout>
+</RelativeLayout>

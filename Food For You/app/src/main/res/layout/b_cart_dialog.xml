@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <soup.neumorphism.NeumorphFloatingActionButton
+            style="@style/ShapeAppearance.Neumorph.FloatingActionButton"
+            android:id="@+id/bcd_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:neumorph_shadowColorLight="@color/white"
+            app:neumorph_shadowColorDark="@color/ash"
+            app:neumorph_shapeType="flat"
+            android:scaleType="center"
+            android:layout_gravity="right"
+            android:foregroundGravity="right"
+            android:src="@drawable/ic_baseline_cancel_presentation_24">
+        </soup.neumorphism.NeumorphFloatingActionButton>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:neumorph_shapeType="flat"
+            app:neumorph_backgroundColor="@color/white"
+            app:neumorph_shadowColorLight="@color/dark_blue"
+            app:neumorph_shadowColorDark="@color/dark_blue">
+
+            <EditText
+                android:id="@+id/bcd_transaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:background="@color/transparent"
+                android:hint="Transaction ID" />
+        </soup.neumorphism.NeumorphCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Restaurant's Contact Number Will Be Copied To Your Clipboard As Soon As You Click 'Go To bKash App' Button. Paste It On bKash App." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/bcd_gpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:neumorph_shadowColorLight="@color/dark_blue"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                app:neumorph_backgroundColor="@color/few_blue"
+                app:neumorph_shadowColorDark="@color/dark_blue">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:text="Go To bKash App" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/bcd_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:neumorph_shadowColorLight="@color/dark_blue"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                app:neumorph_backgroundColor="@color/few_blue"
+                app:neumorph_shadowColorDark="@color/dark_blue">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:text="Submit" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

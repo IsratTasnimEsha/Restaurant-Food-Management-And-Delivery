@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/f_rice"
+        android:icon="@drawable/rice"
+        android:title="Rice" />
+
+    <item
+        android:id="@+id/f_meat"
+        android:icon="@drawable/meat"
+        android:title="Meat" />
+
+    <item
+        android:id="@+id/f_veg"
+        android:icon="@drawable/vegetables"
+        android:title="Vegetables" />
+
+    <item
+        android:id="@+id/f_salad"
+        android:icon="@drawable/salad"
+        android:title="Salad" />
+
+    <item
+        android:id="@+id/f_soup"
+        android:icon="@drawable/soup"
+        android:title="Soup" />
+
+</menu>

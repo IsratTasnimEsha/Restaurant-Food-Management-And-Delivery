@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/few_blue"
+    tools:context=".BAddToCartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/bac_fphoto"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="2dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/bac_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bac_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/bac_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/bac_offer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Special Instructions"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Please let us know if you are allergic to
+anything or if we need to avoid anything."/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            app:cardCornerRadius="8dp">
+
+            <EditText
+                android:id="@+id/bac_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:ems="10"
+                android:background="@color/transparent"
+                android:hint="e.g. no mayo"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <include layout="@layout/toolbar" />
+
+    </LinearLayout>
+
+</ScrollView>
