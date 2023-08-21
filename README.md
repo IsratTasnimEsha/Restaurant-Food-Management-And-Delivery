@@ -101,8 +101,17 @@ The Restaurant Food Management and Delivery App is developed using Java for func
 
 ### Splash And Start Screen
 
-| ![Screenshot 15](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/a7b1b313-4673-4c9e-a0e0-029e9c374d5e) | ![Screenshot 16](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/718bd4d9-3513-4c65-a7bc-4e991dc4ebcf) |
-|---|---|
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/a7b1b313-4673-4c9e-a0e0-029e9c374d5e" alt="Screenshot 15" style="width: 67%;">
+    </td>
+    <td align="center">
+      <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/718bd4d9-3513-4c65-a7bc-4e991dc4ebcf" alt="Screenshot 16" style="width: 67%;">
+    </td>
+  </tr>
+</table>
+
 
 ## Food Seller UI
 
@@ -138,13 +147,23 @@ The Restaurant Food Management and Delivery App is developed using Java for func
 
 ### Order Monitoring
 
-| ![Screenshot 13](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/88fa9a99-a123-435d-bbdc-c0c4b12eef09) |
-|---|
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/88fa9a99-a123-435d-bbdc-c0c4b12eef09" alt="Screenshot 13" style="width: 40%;">
+    </td>
+  </tr>
+</table>
 
 ### Order Management: Receiving, Accepting, and Cancelling
 
-| ![Screenshot 14](https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/3a7e2676-4760-4975-ab7e-0e7b098cd6c3) |
-|---|
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery/assets/88322977/3a7e2676-4760-4975-ab7e-0e7b098cd6c3" alt="Screenshot 14" style="width: 40%;">
+    </td>
+  </tr>
+</table>
 
 ## Getting Started
 
