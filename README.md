@@ -1,5 +1,10 @@
 # Food For You - A Restaurant Food Management And Delivery App
 
+<br>
+<p align="center">
+  <img src="https://github.com/IsratTasnimEsha/Restaurant-Food-Management-And-Delivery-App/assets/88322977/65a5d147-074f-4ca5-9959-9bfe43afe421" alt="Logo" width="12%">
+</p>
+
 ## Objective
 
 The objective of the Restaurant Food Management and Delivery App is to provide users with a convenient and efficient way to order and receive food deliveries from a variety of restaurants. This platform enables restaurants to showcase their offerings, and consumers can effortlessly browse and place orders directly through the app.
