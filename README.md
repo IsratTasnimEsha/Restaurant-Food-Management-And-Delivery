@@ -187,8 +187,6 @@ Contributions to the project are welcomed. If you encounter issues or have sugge
 
 ## Author
 
-Israt Tasnim Esha,
-
-Dept. Of Computer Science And Engineering,
-
-Khulna University Of Engineering And Technology.
+**Israt Tasnim Esha**  
+*Department of Computer Science and Engineering*  
+*Khulna University of Engineering and Technology*
