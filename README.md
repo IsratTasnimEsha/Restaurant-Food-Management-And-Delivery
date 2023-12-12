@@ -185,6 +185,10 @@ The Restaurant Food Management and Delivery App is developed using Java for func
 
 Contributions to the project are welcomed. If you encounter issues or have suggestions for improvements, feel free to submit pull requests.
 
+## Contact
+
+I'm here to assist you on your journey with the Food For You - A Restaurant Food Management And Delivery App. If you need help or want to share feedback, feel free to reach out to me at [israttasnimesha1046@gmail.com](mailto:israttasnimesha1046@gmail.com).
+
 ## Author
 
 **Israt Tasnim Esha**  
