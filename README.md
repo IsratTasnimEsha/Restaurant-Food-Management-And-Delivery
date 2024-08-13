@@ -193,6 +193,6 @@ I'm here to assist you on your journey with the Food For You - A Restaurant Food
 
 - **Israt Tasnim Esha** (1907090)
 
-**CSE 2200	- Advanced Programming** 
+**CSE 3200 - System Development Project**  
 *Department of Computer Science and Engineering*  
 *Khulna University of Engineering and Technology*
