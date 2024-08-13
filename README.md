@@ -191,7 +191,7 @@ I'm here to assist you on your journey with the Food For You - A Restaurant Food
 
 ## Author
 
-**Israt Tasnim Esha** (1907090)
-**CSE 2200 - Advanced Programming**  
+**Israt Tasnim Esha**  
+**CSE 2200 - Advanced Programming**
 *Department of Computer Science and Engineering*  
 *Khulna University of Engineering and Technology*
